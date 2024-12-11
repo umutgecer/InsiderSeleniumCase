@@ -13,7 +13,7 @@ public class InsiderTestCase extends BaseTest {
     }
 
     @Test
-    public void checking_The_Details_Of_Job_Postings_On_Insider() {
+    public void checkingTheDetailsOfJobPostingsOnInsider() {
         homePage.checkIfTheHomePageIsOpened();
         homePage.clickCompanyAndCareer();
         careerPage.checkIfTheCareerPageIsOpened();
